@@ -1,4 +1,4 @@
-###ccExtractStoreSearch
+### ccExtractStoreSearch
 ccExtractStoreSearch is a website on which video(s) can be uploaded, processed and then searched using the subtitles in that video as keywords.
 
 
@@ -16,6 +16,6 @@ ccExtractStoreSearch is a website on which video(s) can be uploaded, processed a
 - **Boto38* is used for integration of AWS in python
 
 ## Installation and Usage
-For cloning this Repository : git clone https://github.com/nimishmedatwal/ccExtractStoreSearch.git
-run: *pip install -r requirements.txt* in your shell.
-Run this django project by : *python manage.py runserver*
+- For cloning this Repository : git clone https://github.com/nimishmedatwal/ccExtractStoreSearch.git
+- run: *pip install -r requirements.txt* in your shell.
+- Run this django project by : *python manage.py runserver*
