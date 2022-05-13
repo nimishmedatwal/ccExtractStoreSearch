@@ -17,5 +17,6 @@ ccExtractStoreSearch is a website on which video(s) can be uploaded, processed a
 
 ## Installation and Usage
 - For cloning this Repository : git clone https://github.com/nimishmedatwal/ccExtractStoreSearch.git
+- Refer to this website for installing ccextractor https://ccextractor.org/public/general/downloads/
 - run: *pip install -r requirements.txt* in your shell.
 - Run this django project by : *python manage.py runserver*
