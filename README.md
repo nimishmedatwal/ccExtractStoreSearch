@@ -20,3 +20,6 @@ ccExtractStoreSearch is a website on which video(s) can be uploaded, processed a
 - Refer to this website for installing ccextractor https://ccextractor.org/public/general/downloads/
 - run: *pip install -r requirements.txt* in your shell.
 - Run this django project by : *python manage.py runserver*
+
+##Demo Link
+- See the Demo Video here : https://drive.google.com/file/d/1IXzZ-u4rA6klFNK089YdEp1Tyx4HnzsT/view?usp=sharing
