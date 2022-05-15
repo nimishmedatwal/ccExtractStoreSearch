@@ -1,0 +1,29 @@
+<!-- ccExtractSearchApp | upload.html
+
+Author   : Nimish Medatwal
+Email    : medatwalnimish@gmail.com
+Link     : https://github.com/nimishmedatwal
+Linkdin  : https://www.linkedin.com/in/nimishmedatwal/ -->
+
+{% extends "files/base.html" %}
+{% load crispy_forms_tags %}
+{% block content %}
+<div class="content-section">
+    <form method="POST" enctype="multipart/form-data" action="dynamoDB" style="margin-top:5em ;">
+        {% csrf_token %}
+        
+        <fieldset class="form-group">
+            {{ form|crispy }}
+            <div>
+        </div>
+        </fieldset>
+        <div class="form-group">
+            {{result}}
+            <button class="btn btn-outline-info" type="submit" action="file-upload">Post</button>
+        </div>
+    </form>
+    
+    
+    
+</div>
+{% endblock content %}
