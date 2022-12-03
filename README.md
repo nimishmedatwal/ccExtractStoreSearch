@@ -13,7 +13,7 @@ ccExtractStoreSearch is a website on which video(s) can be uploaded, processed a
 - This website is created using python with structure of **Django REST Framework**
 - **AWS S3** is used for storing the video file
 - **AWS DynamoDB** is used for storing .srt file
-- **Boto38* is used for integration of AWS in python
+- **Boto3** is used for integration of AWS in python
 
 ## Installation and Usage
 - For cloning this Repository : git clone https://github.com/nimishmedatwal/ccExtractStoreSearch.git
